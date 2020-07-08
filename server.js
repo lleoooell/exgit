@@ -3,11 +3,13 @@ console.log("hello nodemon");
 
 var http = require('http');
 var _ = require('lodash');
+var cors = require('cors')
 
 var fs = require('fs');
 
 var express = require("express");
 var app = express();
+app.use(cors())
 
 app.listen(3000, () => {
     console.log("Server running on port 3000");
