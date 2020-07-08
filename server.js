@@ -1,5 +1,6 @@
 console.log("hello server");
 console.log("hello nodemon");
+console.log("hello nodemon");
 
 var http = require('http');
 var _ = require('lodash');
