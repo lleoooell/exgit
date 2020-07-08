@@ -1,6 +1,8 @@
 console.log("hello server");
+console.log("hello nodemon");
 
 var http = require('http');
+var _ = require('lodash');
 
 var fs = require('fs');
 
